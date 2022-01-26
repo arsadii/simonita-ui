@@ -8,45 +8,62 @@
     <link rel="stylesheet" href="../../dist/output.css" />
   </head>
   <body class="bg-gray-100">
-    <div class="m-5 flex max-w-4xl bg-gray-100 h-[15rem] overflow-hidden">
-      <div
-        class="bg-white rounded-xl p-6 relative h-full w-3/4 border-l-2 border-t-2 border-b-2 border-gray-200"
-      >
-        <div class="h-full flex flex-col justify-between">
-          <div class="">
-            <h3 class="text-gray-400 font-bold text-sm">#PR12342</h3>
-            <h1 class="text-2xl text-gray-700 font-bold">
-              Telusuri kasus penyeludupan popok
-            </h1>
-            <p class="text-sm leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              perferendis odit, nesciunt animi aut reprehenderit!
+    <div
+      class="m-5 flex max-w-4xl bg-gray-100 overflow-hidden relative rounded-tl-3xl"
+    >
+      <span
+        class="absolute bg-white w-1/2 h-32 -left-10 -top-10 skew-x-12 -rotate-6"
+      ></span>
+      <div class="bg-white h-full w-full rounded-3xl p-6 space-y-3 mt-7 z-20">
+        <div
+          class="flex flex-col sm:flex-row justify-between space-y-2 sm:space-y-0"
+        >
+          <div class="text-left">
+            <h4 class="text-gray-400 text-xs">Kepada</h4>
+            <h4 class="text-gray-700 font-semibold">
+              Kepala Kejaksaan Negeri Palu
+            </h4>
+          </div>
+          <div class="text-left sm:text-right">
+            <h4 class="text-gray-400 text-xs">Tanggal Dikeluarkan</h4>
+            <h4 class="text-gray-700 font-semibold">23 Desember 2021</h4>
+          </div>
+        </div>
+        <div
+          class="bg-white border border-gray-200 shadow-md rounded-xl p-4 transform hover:-translate-y-2 hover:shadow-xl transition duration-200"
+        >
+          <div class="border-b-2 border-gray-200 pb-4">
+            <h2 class="text-gray-700 text-2xl font-semibold">
+              Telusuri kasus penyeludupan popok bom
+            </h2>
+            <p class="text-gray-400 mt-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              dicta facilis dignissimos, maxime minima minus veritatis quos et,
+              officia culpa neque illum esse explicabo.
             </p>
           </div>
-          <div class="space-y-2">
-            <a
-              class="py-2 px-4 rounded-lg border-2 border-green-400 text-green-500 font-bold"
-              href="#"
-              >Selengkapnya</a
-            >
-            <div class="flex text-gray-500 items-center space-x-5">
-              <h3 class="text-xl">Tenggat waktu : 24-01-2022</h3>
-              <h4 class="text-red-400">( 2 hari 23 jam 15 menit 10 detik )</h4>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-0 sm:gap-3">
+            <div class="flex flex-col justify-start py-4">
+              <h5 class="text-gray-400 text-xs">Pengawas</h5>
+              <h5 class="text-gray-600 font-bold">Asisten Intelijen</h5>
+            </div>
+            <div class="flex flex-col justify-start py-4">
+              <h5 class="text-gray-400 text-xs">Deadline</h5>
+              <h5 class="text-gray-600 font-bold">23 Januari 2022</h5>
+              <h5 class="text-red-400 text-xs">
+                (3 Hari 14 Jam 32 Menit 10 Detik)
+              </h5>
+            </div>
+            <div class="p-5 flex items-center justify-center">
+              <div
+                class="bg-red-100 text-red-500 p-2 rounded-full text-center uppercase w-full"
+              >
+                Belum Selesai
+              </div>
             </div>
           </div>
         </div>
-
-        <div
-          class="absolute w-8 h-8 bg-gray-100 z-10 top-0 right-0 translate-x-4 -translate-y-4 rounded-full border-2 border-gray-200"
-        ></div>
-        <div
-          class="absolute w-8 h-8 bg-gray-100 z-10 bottom-0 right-0 translate-x-4 translate-y-4 rounded-full border-2 border-gray-200"
-        ></div>
-      </div>
-      <div
-        class="bg-white rounded-xl p-6 w-1/4 h-full flex items-center justify-center border-r-2 border-t-2 border-b-2 border-gray-200"
-      >
-        <div class="bg-green-300 rounded-full h-24 w-24"></div>
       </div>
     </div>
   </body>
